@@ -1,6 +1,6 @@
 # Deploying a Flask API
 
-In this project i containerized and deployed a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
+In this project, i containerized and deployed a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
 
 The Flask app consists of a simple API with three endpoints:
 
