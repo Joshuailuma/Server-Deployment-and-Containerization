@@ -25,7 +25,7 @@ def client():
 def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
-    assert response.json == 'Yes. This is Healthy'
+    assert response.json == 'Yes. Healthy'
 
 
 def test_auth(client):
